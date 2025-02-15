@@ -95,7 +95,7 @@ def llm_task(input_file_name, output_file_name, task_description):
         ### **Example Format (Modify as Needed Based on Task Requirements):**
         # /// script
         # requires-python = ">=3.13"
-        # dependencies = [.........."requests==2.31.0","npm"....any_other_libraries_along_with_versions_as_required...........]
+        # dependencies = [.........."requests==2.31.0"......any_other_libraries_along_with_versions_as_required...........]
         # ///
         import requests        
         ..................
