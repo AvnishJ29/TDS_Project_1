@@ -12,6 +12,8 @@ RUN sh /uv-installer.sh && rm /uv-installer.sh
 # Ensure the installed binary is on the `PATH`
 ENV PATH="/root/.local/bin/:$PATH"
 
+RUN mkdir -p /data && chmod 777 /data
+
 WORKDIR /app
 COPY app.py /app
 
